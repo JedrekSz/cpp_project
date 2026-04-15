@@ -1,8 +1,16 @@
-# Programming Technology Lab
+# 🛒 Shop Management Application
 
-## Team
+## Opis
+Aplikacja desktopowa napisana w C# (WPF), symulująca prosty system sklepu.  
+Pozwala na zarządzanie produktami, użytkownikami oraz operacjami zakupu.
 
-| Name Surname (initials) | GUID                                     |
-| ----------------------- | ---------------------------------------- |
-| Mikołaj Pułaski         | `{D8E66F4A-45F9-4763-AFAC-8586C0AD6F11}' |
-| Jędrzej Szwach          | `{3426BA5D-FA13-4276-9D82-5CE54F260EE5}' |
+---
+
+## Architektura
+
+Projekt składa się z kilku warstw:
+
+- **DataLayer** – obsługa bazy danych (repozytoria, modele, SQL)
+- **LogicLayer** – logika biznesowa (operacje na danych)
+- **PresentationLayer** – interfejs użytkownika (WPF, MVVM)
+- **Tests** – testy jednostkowe dla poszczególnych warstw
