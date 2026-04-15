@@ -1,4 +1,4 @@
-# 🛒 Shop Management Application
+#  Shop Management Application
 
 ## Opis
 Aplikacja desktopowa napisana w C# (WPF), symulująca prosty system sklepu.  
