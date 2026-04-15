@@ -14,3 +14,11 @@ Projekt składa się z kilku warstw:
 - **LogicLayer** – logika biznesowa (operacje na danych)
 - **PresentationLayer** – interfejs użytkownika (WPF, MVVM)
 - **Tests** – testy jednostkowe dla poszczególnych warstw
+
+## Technologie
+
+- C#
+- WPF (MVVM)
+- LINQ to SQL 
+- .NET Framework
+- Unit Testing
